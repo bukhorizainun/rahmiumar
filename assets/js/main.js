@@ -40,13 +40,10 @@
   });
 })();
 
-/* Header: cream text throughout (it always sits on the dark band, whether
-   transparent over the hero or solid once scrolled), solid backdrop on scroll */
+/* Header: subtle shadow once the page has scrolled */
 (function () {
   var header = document.querySelector('.site-header');
   if (!header) return;
-
-  header.classList.add('on-band');
 
   function update() {
     header.classList.toggle('scrolled', window.scrollY > 16);

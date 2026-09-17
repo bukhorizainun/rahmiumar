@@ -5,14 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Talks &amp; Conferences — Rahmi Ramadhani Umar</title>
 <meta name="description" content="Invited talks, keynotes, and workshops delivered by Dr. Rahmi Ramadhani Umar on research grants, scientific writing, and technology-enhanced mathematics education.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='6' fill='%2314161F'/%3E%3Ctext x='50' y='66' font-family='Georgia,serif' font-size='50' font-weight='600' fill='%23DFA15C' text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect x='3' y='3' width='94' height='94' rx='22' fill='%23FFFFFF' stroke='%232F6FED' stroke-width='5'/%3E%3Ctext x='50' y='68' font-family='Arial,sans-serif' font-size='50' font-weight='700' fill='%231B2440' text-anchor='middle'%3ER%3C/text%3E%3Ccircle cx='81' cy='21' r='9' fill='%23FF7A45'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
 <script>(function(){try{var t=localStorage.getItem('rru-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
 </head>
-<body>
+<body class="accent-green">
 <a class="skip-link" href="#main">Skip to content</a>
 
 <header class="site-header">
@@ -41,7 +41,16 @@
 
 <main id="main">
 
-  <section class="band page-hero">
+  <section class="page-hero">
+    <div class="glow" aria-hidden="true" style="width:360px;height:360px;top:-120px;right:60px;background:var(--green);opacity:.22"></div>
+    <div class="motif" aria-hidden="true">
+      <svg viewBox="0 0 1200 320" preserveAspectRatio="xMaxYMid slice">
+        <defs><pattern id="pgGrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" class="motif-grid-line"/></pattern></defs>
+        <rect width="1200" height="320" fill="url(#pgGrid)"/>
+        <circle cx="1010" cy="150" r="170" class="motif-orbit"/>
+        <circle cx="1010" cy="150" r="110" class="motif-orbit rev"/>
+      </svg>
+    </div>
     <div class="container">
       <span class="hero-kicker">Talks &amp; Conferences</span>
       <h1>Invited talks, keynotes, and workshops.</h1>
@@ -92,13 +101,13 @@
           </tr>
         </table>
       </div>
-      <p class="section-desc reveal" style="margin-top:26px">Slides and recordings for individual talks will be added here as they become available.</p>
+      <p class="section-desc reveal" style="margin-top:24px">Slides and recordings for individual talks will be added here as they become available.</p>
     </div>
   </section>
 
 </main>
 
-<footer class="site-footer band">
+<footer class="site-footer">
   <div class="container">
     <div class="footer-top">
       <h2>Let's talk mathematics education, GeoGebra, or research collaboration.</h2>
@@ -118,5 +127,7 @@
 </footer>
 
 <script src="assets/js/main.js"></script>
+<script src="assets/js/math-motif.js"></script>
+<script src="assets/js/effects.js"></script>
 </body>
 </html>

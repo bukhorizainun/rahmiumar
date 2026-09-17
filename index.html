@@ -5,14 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Rahmi Ramadhani Umar — Mathematics Education Researcher</title>
 <meta name="description" content="Dr. Rahmi Ramadhani Umar — Associate Professor of Mathematics Education at Universitas Potensi Utama and JESH Postdoctoral Fellow at Johannes Kepler University Linz. Research on GeoGebra, AI-supported learning, numeracy, and Rasch measurement.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='6' fill='%2314161F'/%3E%3Ctext x='50' y='66' font-family='Georgia,serif' font-size='50' font-weight='600' fill='%23DFA15C' text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect x='3' y='3' width='94' height='94' rx='22' fill='%23FFFFFF' stroke='%232F6FED' stroke-width='5'/%3E%3Ctext x='50' y='68' font-family='Arial,sans-serif' font-size='50' font-weight='700' fill='%231B2440' text-anchor='middle'%3ER%3C/text%3E%3Ccircle cx='81' cy='21' r='9' fill='%23FF7A45'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
 <script>(function(){try{var t=localStorage.getItem('rru-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
 </head>
-<body>
+<body class="accent-blue">
 <a class="skip-link" href="#main">Skip to content</a>
 
 <header class="site-header">
@@ -41,30 +41,83 @@
 
 <main id="main">
 
-  <section class="band hero-home">
-    <div class="hero-canvas-wrap"><canvas id="heroNetwork"></canvas></div>
-    <div class="container">
-      <span class="hero-kicker">JESH Postdoctoral Fellow · Johannes Kepler University Linz</span>
-      <h1>Making mathematics <em>learnable</em>, one research trajectory at a time.</h1>
-      <p class="hero-name"><b>Dr. Rahmi Ramadhani Umar, M.Pd</b> — <span>Associate Professor of Mathematics Education, Universitas Potensi Utama, Indonesia</span></p>
-      <div class="hero-actions">
-        <a class="link-ghost is-solid" href="publications.html">View publications</a>
-        <a class="link-ghost" href="cv.html">CV &amp; contact ↗</a>
+  <section class="hero-home">
+    <div class="spotlight" aria-hidden="true"></div>
+    <div class="glow" aria-hidden="true" style="width:420px;height:420px;top:-140px;left:-120px;background:var(--blue)"></div>
+    <div class="glow" aria-hidden="true" style="width:320px;height:320px;top:40px;right:-100px;background:var(--orange);opacity:.28"></div>
+    <div class="container hero-grid">
+      <div>
+        <span class="hero-kicker">JESH Postdoctoral Fellow · Johannes Kepler University Linz</span>
+        <h1 class="split-reveal"><span class="w">Making</span> <span class="w">mathematics</span> <span class="w"><em>learnable</em>,</span> <span class="w">one</span> <span class="w">research</span> <span class="w">trajectory</span> <span class="w">at</span> <span class="w">a</span> <span class="w">time.</span></h1>
+        <p class="hero-name"><b>Dr. Rahmi Ramadhani Umar, M.Pd</b> — Associate Professor of Mathematics Education, Universitas Potensi Utama, Indonesia. Her work integrates GeoGebra, AI-supported learning, ethnomathematics, and Rasch measurement.</p>
+        <div class="hero-actions">
+          <a class="btn btn-solid" href="publications.html">View publications</a>
+          <a class="btn btn-outline" href="cv.html">CV &amp; contact</a>
+        </div>
+      </div>
+
+      <div class="gradient-frame tilt" style="aspect-ratio:1/1">
+        <div class="gradient-frame-inner">
+          <div class="hero-visual" id="heroVisual">
+            <div class="motif">
+              <svg viewBox="0 0 400 400" role="img" aria-label="Abstract illustration of a coordinate grid with a plotted curve and geometric orbits">
+                <defs>
+                  <pattern id="heroGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+                    <path d="M40 0H0V40" fill="none" class="motif-grid-line"/>
+                  </pattern>
+                  <linearGradient id="curveGrad" x1="0" y1="1" x2="1" y2="0">
+                    <stop offset="0%" style="stop-color:var(--blue)"/>
+                    <stop offset="55%" style="stop-color:var(--purple)"/>
+                    <stop offset="100%" style="stop-color:var(--orange)"/>
+                  </linearGradient>
+                </defs>
+                <rect width="400" height="400" fill="url(#heroGrid)"/>
+                <circle cx="200" cy="205" r="148" class="motif-orbit"/>
+                <circle cx="200" cy="205" r="96" class="motif-orbit rev"/>
+                <path class="motif-curve" stroke="url(#curveGrad)" d="M46,300 C120,300 120,140 200,140 S300,70 354,70"/>
+                <circle class="motif-dot" cx="46" cy="300" r="7" fill="var(--blue)"/>
+                <circle class="motif-dot" cx="200" cy="140" r="7" fill="var(--purple)"/>
+                <circle class="motif-dot" cx="354" cy="70" r="7" fill="var(--orange)"/>
+                <circle class="motif-dot" cx="332" cy="332" r="6" fill="var(--green)"/>
+                <circle class="motif-dot" cx="66" cy="86" r="6" fill="var(--teal)"/>
+              </svg>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+
     <div class="masthead-stats">
       <div class="container">
-        <div class="mstat"><b>27</b><span>Scopus-indexed works</span></div>
-        <div class="mstat"><b>9</b><span>Scopus h-index</span></div>
-        <div class="mstat"><b>31</b><span>Google Scholar h-index</span></div>
-        <div class="mstat"><b>6</b><span>Patents &amp; IP</span></div>
+        <div class="bento">
+          <div class="bento-item is-featured tilt">
+            <div class="bento-glow" style="background:var(--blue);top:-20%;left:-10%"></div>
+            <b style="color:var(--blue)">27</b>
+            <span>Scopus-indexed publications</span>
+          </div>
+          <div class="bento-item tilt">
+            <div class="bento-glow" style="background:var(--purple);top:20%;left:20%"></div>
+            <b style="color:var(--purple)">9</b>
+            <span>Scopus h-index</span>
+          </div>
+          <div class="bento-item tilt">
+            <div class="bento-glow" style="background:var(--orange);top:20%;left:20%"></div>
+            <b style="color:var(--orange)">31</b>
+            <span>Google Scholar h-index</span>
+          </div>
+          <div class="bento-item tilt" style="grid-column:span 2">
+            <div class="bento-glow" style="background:var(--green);top:20%;left:40%"></div>
+            <b style="color:var(--green)">6</b>
+            <span>Patents &amp; IP registrations</span>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <section class="section">
     <div class="container">
-      <p class="lede reveal">Her work integrates GeoGebra, AI-supported learning, ethnomathematics, and Rasch measurement to design mathematics education that is <em>rigorous</em> and <em>culturally grounded</em> — from statistics classrooms in Medan to postdoctoral research in Linz.</p>
+      <p class="lede reveal">Designing mathematics education that is <em>rigorous</em> and <em>culturally grounded</em> — from statistics classrooms in Medan to postdoctoral research in Linz.</p>
     </div>
   </section>
 
@@ -77,27 +130,27 @@
         </div>
       </div>
       <div class="index-list reveal">
-        <article class="index-entry">
-          <a class="index-link" href="research.html" style="display:contents">
-            <span class="index-num mono">i.</span>
+        <article class="index-entry tilt">
+          <span class="index-num mono">i</span>
+          <a class="index-link" href="research.html">
             <span class="index-body">
               <h3>Research<span class="index-arrow">→</span></h3>
               <p>GeoGebra and AI-supported mathematics learning, numeracy, learning trajectories, and Rasch-based educational measurement.</p>
             </span>
           </a>
         </article>
-        <article class="index-entry">
-          <a class="index-link" href="teaching.html" style="display:contents">
-            <span class="index-num mono">ii.</span>
+        <article class="index-entry tilt">
+          <span class="index-num mono">ii</span>
+          <a class="index-link" href="teaching.html">
             <span class="index-body">
               <h3>Teaching<span class="index-arrow">→</span></h3>
               <p>Undergraduate and postgraduate courses in mathematics, statistics, and research methodology, with thesis supervision.</p>
             </span>
           </a>
         </article>
-        <article class="index-entry">
-          <a class="index-link" href="talks.html" style="display:contents">
-            <span class="index-num mono">iii.</span>
+        <article class="index-entry tilt">
+          <span class="index-num mono">iii</span>
+          <a class="index-link" href="talks.html">
             <span class="index-body">
               <h3>Talks &amp; Conferences<span class="index-arrow">→</span></h3>
               <p>Invited talks and workshops on research grants, scientific publishing, and technology-enhanced mathematics education.</p>
@@ -149,16 +202,18 @@
 
   <section class="section" style="padding-top:0">
     <div class="container">
-      <div class="panel reveal" style="display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between">
-        <div style="max-width:52ch">
-          <span class="kicker">Profiles</span>
-          <h2 class="section-title" style="font-size:1.3rem">Find her work across research platforms</h2>
-        </div>
-        <div class="link-row">
-          <a href="https://orcid.org/0000-0002-8049-7234" target="_blank" rel="noopener">ORCID</a>
-          <a href="https://scholar.google.com/citations?user=eZGZv1oAAAAJ&hl=id" target="_blank" rel="noopener">Google Scholar</a>
-          <a href="https://www.scopus.com/authid/detail.uri?authorId=57202252421" target="_blank" rel="noopener">Scopus</a>
-          <a href="https://sinta.kemdiktisaintek.go.id/authors/profile/95483" target="_blank" rel="noopener">SINTA</a>
+      <div class="gradient-frame tilt reveal">
+        <div class="gradient-frame-inner panel" style="display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between">
+          <div style="max-width:52ch">
+            <span class="kicker">Profiles</span>
+            <h2 class="section-title" style="font-size:1.25rem">Find her work across research platforms</h2>
+          </div>
+          <div class="link-row">
+            <a href="https://orcid.org/0000-0002-8049-7234" target="_blank" rel="noopener">ORCID</a>
+            <a href="https://scholar.google.com/citations?user=eZGZv1oAAAAJ&hl=id" target="_blank" rel="noopener">Google Scholar</a>
+            <a href="https://www.scopus.com/authid/detail.uri?authorId=57202252421" target="_blank" rel="noopener">Scopus</a>
+            <a href="https://sinta.kemdiktisaintek.go.id/authors/profile/95483" target="_blank" rel="noopener">SINTA</a>
+          </div>
         </div>
       </div>
     </div>
@@ -166,7 +221,7 @@
 
 </main>
 
-<footer class="site-footer band">
+<footer class="site-footer">
   <div class="container">
     <div class="footer-top">
       <h2>Let's talk mathematics education, GeoGebra, or research collaboration.</h2>
@@ -186,6 +241,7 @@
 </footer>
 
 <script src="assets/js/main.js"></script>
-<script src="assets/js/hero-network.js"></script>
+<script src="assets/js/math-motif.js"></script>
+<script src="assets/js/effects.js"></script>
 </body>
 </html>
